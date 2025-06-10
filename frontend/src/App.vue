@@ -1,23 +1,17 @@
 <script setup>
-import Navbar from './components/Navbar.vue'
 import Intro from './components/Intro.vue'
 import Education from './components/Education.vue'
+//import WorkExperience from './components/WorkExperience.vue'
 import Projects from './components/Projects.vue'
 </script>
 
 <template>
-  <div id="app">
-    <Navbar />
+  <div class="frame">
     <Intro />
     <Education />
+    
     <Projects />
   </div>
 </template>
 
-<style>
-body {
-  margin: 0;
-  font-family: 'Georgia', serif;
-  background-color: #f4f1ed;
-}
-</style>
+
