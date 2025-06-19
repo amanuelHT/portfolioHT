@@ -28,9 +28,7 @@ export default function About() {
           <a href="https://linkedin.com/in/yourprofile" target="_blank"><FaLinkedin /></a>
           <a href="https://github.com/yourgithub" target="_blank"><FaGithub /></a>
           <a href="mailto:youremail@example.com"><FaEnvelope /></a>
-          <a href="tel:+1234567890"><FaPhone /></a>
-          <a href="https://instagram.com/yourprofile" target="_blank"><FaInstagram /></a>
-          <a href="https://twitter.com/yourprofile" target="_blank"><FaTwitter /></a>
+         
         </div>
       </div>
     </section>
