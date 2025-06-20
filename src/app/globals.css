@@ -3,12 +3,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-inter);
+  --font-heading: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
@@ -22,5 +18,42 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), sans-serif;
+  font-size: 1rem;
+  line-height: 1.75;
+  margin: 0;
+  padding: 0;
+}
+
+/* Headings use Geist */
+h1, h2, h3, h4 {
+  font-family: var(--font-heading), sans-serif;
+  font-weight: bold;
+  color: var(--foreground);
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  font-size: 2.25rem;
+  line-height: 1.2;
+  margin-top: 2rem;
+}
+
+h2 {
+  font-size: 1.875rem;
+  line-height: 1.3;
+  margin-top: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin-top: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.75;
+  margin-top: 1rem;
+  color: #4a4a4a;
 }
