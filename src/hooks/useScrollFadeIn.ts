@@ -31,7 +31,7 @@ export default function useScrollFadeIn(delay = 0) {
     style: {
       opacity: isVisible ? 1 : 0,
       transform: isVisible ? 'none' : 'translateY(20px)',
-      transition: `all 0.6s ease ${delay}s`,
+      transition: `all 0.9s ease ${delay}s`,
     },
   };
 }

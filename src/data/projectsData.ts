@@ -1,27 +1,23 @@
 export const projectsData = [
   {
-    title: "Marsmania - Beta Game Jam 2024",
-    icon: "🎮",
-    tech: "Unity, C#, Custom Pixel Art",
-    github: "https://github.com/yourusername/marsmania",
-    image: "/projects/marsmania.png",
+    title: 'Marsmania - Beta Game Jam 2024',
     description:
-      "Created a rhythm-based game where players hit notes in time and dodge projectiles, developed for Beta Game Jam 2024. Marsmania features dynamic rhythm gameplay, fun pixel art, and real-time scoring.",
+      'Created a rhythm-based game where players hit notes in time and dodge projectiles, developed for Beta Game Jam 2024. Marsmania features dynamic rhythm gameplay, fun pixel art, and real-time scoring.',
+    github: 'https://github.com/yourusername/marsmania', // Replace with actual link
+    logo: '/logos/marsmania.png', // Place this image inside public/logos/
   },
   {
-    title: "YouWeMovie",
-    tech: "ASP.NET Core, C#, SQLite",
-    github: "https://github.com/yourusername/youwemovie",
-    image: "/projects/youwemovie.png",
+    title: 'YouWeMovie',
     description:
-      "Developed a movie review and rating platform for Internettjenester course at University of Agder.",
+      'Developed a movie review and rating platform for Internettjenester course at University of Agder.',
+    github: 'https://github.com/yourusername/youwemovie', // Replace with actual link
+    logo: '/logos/youwemovie.png',
   },
   {
-    title: "Game of Life",
-    tech: "C++, SFML",
-    github: "https://github.com/yourusername/game-of-life",
-    image: "/projects/gameoflife.png",
+    title: 'Game of Life',
     description:
-      `Implemented Conway's Game of Life using SFML and modern C++ standards. Includes reproduction, overpopulation, underpopulation logic.`,
+      'Recreated Conway’s Game of Life using SFML and modern C++ standards. Includes reproduction, overpopulation, underpopulation logic.',
+    github: 'https://github.com/yourusername/game-of-life', // Replace with actual link
+    logo: '/logos/gameoflife.png',
   },
 ];

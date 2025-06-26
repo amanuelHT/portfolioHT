@@ -14,7 +14,7 @@ export const experienceData: ExperienceData[] = [
     title: 'CEO and Founder',
     company: '',
     highlights: [
-      'Handle day to day business and technology directions',
+      'Handle day-to-day business and technology directions',
       'Architected and implemented multiple products and solutions',
       'Offer a great line of products to help ease life and solve problems',
     ],
@@ -25,12 +25,11 @@ export const experienceData: ExperienceData[] = [
     title: 'Web and Mobile Fullstack Dev',
     company: 'Afriwork',
     description:
-      'Afriwork is a platform that connects freelancers and clients trusted by over 15k companies and 300k freelancers. And it is the top freelancing platform in Ethiopia.',
+      'Afriwork is a platform that connects freelancers and clients trusted by over 15k companies and 300k freelancers. It is the top freelancing platform in Ethiopia.',
     highlights: [
       'Designed a hiring pipeline for the company',
       'Consulted on outsourcing projects',
       'Main mobile apps developer for outsourced projects',
     ],
   },
- 
 ];
