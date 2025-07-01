@@ -9,10 +9,10 @@ export type ExperienceData = {
 
 export const experienceData: ExperienceData[] = [
   {
-    date: 'Nov 2018 - Present',
-    logo: '/logo/company.svg',
+    date: '2019-2025',
+    logo: '/logos/vennesla.jpg',
     title: 'CEO and Founder',
-    company: '',
+    company: 'Vennesla kommune',
     highlights: [
       'Handle day-to-day business and technology directions',
       'Architected and implemented multiple products and solutions',
@@ -20,10 +20,10 @@ export const experienceData: ExperienceData[] = [
     ],
   },
   {
-    date: 'Aug 2024 - Present',
-    logo: '/logo/afriwork.png',
+    date: '2024-2025',
+    logo: '/logos/grimstad.jpg',
     title: 'Web and Mobile Fullstack Dev',
-    company: 'Afriwork',
+    company: 'Grimstad Kommune',
     description:
       'Afriwork is a platform that connects freelancers and clients trusted by over 15k companies and 300k freelancers. It is the top freelancing platform in Ethiopia.',
     highlights: [

@@ -21,20 +21,20 @@ export default function Education() {
               className="relative pl-10 pb-12 transition-all duration-700 ease-out"
             >
               {/* Date Badge */}
-              <div className="absolute -left-[64px] top-0 text-sm bg-gray-100 dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-full px-3 py-0.5 font-semibold shadow-md">
+              <div className="absolute -left-[54px] top-0 text-sm bg-gray-20 dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-full px-1 py-0.1 font-semibold shadow-md">
                 {item.date}
               </div>
 
               {/* Card-style block */}
-              <div className="bg-white dark:bg-gray-900 rounded-lg shadow-md p-5 space-y-1">
-                <div className="flex items-center gap-3">
+              <div className="bg-white dark:bg-gray-900 rounded-lg shadow-md p-4 space-y-1">
+                <div className="flex items-center gap-8">
                   {/* Logo */}
                   {item.logo && (
                     <Image
                       src={item.logo}
                       alt={`${item.institution} logo`}
-                      width={32}
-                      height={32}
+                      width={250}
+                      height={50}
                       className="rounded-md"
                     />
                   )}

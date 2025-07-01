@@ -19,24 +19,9 @@ export default function Projects() {
             <div
               key={idx}
               {...fadeIn}
-              className="relative flex flex-col md:flex-row items-start gap-0"
+              className="relative flex flex-col md:flex-row items-start gap-4"
             >
-              {/* Timeline Logo or Title */}
-<div className="flex-shrink-0 w-full md:w-[240px] h-[250px]  flex items-center justify-center border border-gray-200 dark:border-gray-700 rounded-xl overflow-hidden shadow-md bg-white dark:bg-zinc-900 text-sm text-center px-2">
-  {project.logo ? (
-    <Image
-      src={project.logo}
-      alt={`${project.title} logo`}
-      width={80}
-      height={80}
-      className="object-contain"
-    />
-  ) : (
-    <span className="text-xs font-medium text-gray-800 dark:text-white leading-snug">
-      {project.title}
-    </span>
-  )}
-</div>
+             
 
 
               {/* Project Info Card (right) */}
@@ -58,8 +43,27 @@ export default function Projects() {
                     <FaCode /> Source Code
                   </a>
                 )}
+                
               </div>
+               {/* Timeline Logo or Title */}
+              <div className="flex-shrink-0 w-full md:w-[240px] h-[250px]  flex items-center justify-center border border-gray-200 dark:border-gray-700 rounded-xl overflow-hidden shadow-md bg-white dark:bg-zinc-900 text-sm text-center px-2">
+  {project.logo ? (
+    <Image
+      src={project.logo}
+      alt={`${project.title} logo`}
+      width={80}
+      height={80}
+      className="object-contain"
+    />
+  ) : (
+    <span className="text-xs font-medium text-gray-800 dark:text-white leading-snug">
+      {project.title}
+    </span>
+  )}
+</div>
+
             </div>
+            
           );
         })}
       </div>

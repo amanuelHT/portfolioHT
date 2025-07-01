@@ -21,28 +21,28 @@ export default function Experience() {
               className="relative pl-10 pb-12 transition-all duration-700 ease-out"
             >
               {/* Date */}
-               <div className="absolute -left-[114px] top-0 text-sm bg-gray-100 dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-full px-3 py-0.5 font-semibold shadow-md">
+              <div className="absolute -left-[54px] top-0 text-sm bg-gray-20 dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-full px-1 py-0.1 font-semibold shadow-md">
                 {item.date}
               </div>
 
               {/* Card-style container */}
-              <div className="bg-white dark:bg-gray-900 rounded-lg shadow-md p-5 space-y-2">
-                {/* Logo */}
-                <Image
-                  src={item.logo}
-                  alt={`${item.company} logo`}
-                  width={32}
-                  height={32}
-                  className="mb-2"
-                />
-
-                {/* Title & Company */}
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                  {item.title}
-                </h3>
-                <p className="text-sm font-medium text-gray-700 dark:text-gray-300">
-                  {item.company}
-                </p>
+             <div className="flex items-center gap-4 mb-2">
+  <Image
+    src={item.logo}
+    alt={`${item.company} logo`}
+    width={32}
+    height={32}
+    className="flex-shrink-0"
+  />
+  <div>
+    <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+      {item.title}
+    </h3>
+    <p className="text-sm font-medium text-gray-700 dark:text-gray-300">
+      {item.company}
+    </p>
+  </div>
+</div>
 
                 {/* Optional Description */}
                 {item.description && (
@@ -58,7 +58,7 @@ export default function Experience() {
                   ))}
                 </ul>
               </div>
-            </div>
+            
           );
         })}
       </div>
