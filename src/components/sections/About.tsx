@@ -17,7 +17,7 @@ export default function About() {
         {/* Profile Image */}
         <div className="w-40 h-60 relative rounded-full overflow-hidden shadow-md ">
           <Image
-            src="/assets/am.jpg"
+            src="/assets/am1.png"
             alt="Amanuel HT"
             fill
             className="object-cover"
@@ -42,7 +42,7 @@ Creative <span className="mx-1">|</span>  Developer
           </p>
 
           {/* Social Links */}
-          <div className="flex justify-center md:justify-start gap-5 pt-2 text-xl text-gray-600 dark:text-gray-300">
+          <div className="flex justify-center md:justify-start gap-5 pt-12 text-xl text-gray-800 dark:text-gray-300">
             <a
               href="https://linkedin.com/in/amanuelHT"
               target="_blank"
