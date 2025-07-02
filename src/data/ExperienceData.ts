@@ -11,25 +11,37 @@ export const experienceData: ExperienceData[] = [
   {
     date: '2019-2025',
     logo: '/logos/vennesla.jpg',
-    title: 'CEO and Founder',
+    title: '',
     company: 'Vennesla kommune',
     highlights: [
-      'Handle day-to-day business and technology directions',
-      'Architected and implemented multiple products and solutions',
-      'Offer a great line of products to help ease life and solve problems',
+
+
+
+      'Assisting individuals with intellectual disabilities.',
+      'Gained experience in responsibility, empathy, and collaboration.',
+
     ],
   },
   {
     date: '2024-2025',
     logo: '/logos/grimstad.jpg',
-    title: 'Web and Mobile Fullstack Dev',
+    title: '',
     company: 'Grimstad Kommune',
-    description:
-      'Afriwork is a platform that connects freelancers and clients trusted by over 15k companies and 300k freelancers. It is the top freelancing platform in Ethiopia.',
+    
     highlights: [
-      'Designed a hiring pipeline for the company',
-      'Consulted on outsourcing projects',
-      'Main mobile apps developer for outsourced projects',
+      'Care work that enhanced independence, adaptability, and communication.',
     ],
   },
+{
+    date: '2016-2017',
+    logo: '/logos/KGS.jpg',
+    title: '',
+    company: 'Kongsgård skolesenter -Kristiansand',
+    
+    highlights: [
+    'Contributed to a safe school environment.',
+      'Developed social understanding and conflict management skills',
+    ],
+  },
+
 ];

@@ -46,13 +46,13 @@ export default function Projects() {
                 
               </div>
                {/* Timeline Logo or Title */}
-              <div className="flex-shrink-0 w-full md:w-[240px] h-[250px]  flex items-center justify-center border border-gray-200 dark:border-gray-700 rounded-xl overflow-hidden shadow-md bg-white dark:bg-zinc-900 text-sm text-center px-2">
+              <div className="flex-shrink-0 w-full md:w-[250px] h-[250px]  flex items-center justify-center border border-gray-200 dark:border-gray-700 rounded-xl overflow-hidden shadow-md bg-white dark:bg-zinc-900 text-sm text-center px-2">
   {project.logo ? (
     <Image
       src={project.logo}
       alt={`${project.title} logo`}
-      width={80}
-      height={80}
+      width={500}
+      height={250}
       className="object-contain"
     />
   ) : (

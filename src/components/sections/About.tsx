@@ -44,7 +44,7 @@ Creative <span className="mx-1">|</span>  Developer
           {/* Social Links */}
           <div className="flex justify-center md:justify-start gap-5 pt-12 text-xl text-gray-800 dark:text-gray-300">
             <a
-              href="https://linkedin.com/in/amanuelHT"
+              href="https://linkedin.com/in/amanuel-hayele-19b6882a1"
               target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn"
