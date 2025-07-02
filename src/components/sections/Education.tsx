@@ -1,5 +1,5 @@
 'use client';
-
+import { FaExternalLinkAlt } from 'react-icons/fa';
 import SectionWrapper from '../common/SectionWrapper';
 import { educationData } from '@/data/educationData';
 import useScrollFadeIn from '@/hooks/useScrollFadeIn';
@@ -33,7 +33,7 @@ export default function Education() {
                     <Image
                       src={item.logo}
                       alt={`${item.institution} logo`}
-                      width={250}
+                      width={150}
                       height={50}
                       className="rounded-md"
                     />
@@ -41,9 +41,10 @@ export default function Education() {
 
                   {/* Title & School */}
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                      {item.institution}
-                    </h3>
+                    <h3 className="text-base font-medium text-gray-800 dark:text-gray-200 tracking-normal">
+  {item.institution}
+</h3>
+
                     <p className="text-sm font-medium text-gray-700 dark:text-gray-300">
                       {item.title}
                     </p>
@@ -53,6 +54,15 @@ export default function Education() {
                 <p className="text-sm text-gray-600 dark:text-gray-400 leading-snug">
                   {item.description}
                 </p>
+                <a
+  href={item.link}
+  target="_blank"
+  rel="noreferrer"
+  className="inline-flex items-center gap-1 mt-2 text-sm text-blue-600 dark:text-blue-400 hover:underline"
+>
+  View Program Curriculum <FaExternalLinkAlt className="inline-block" size={12} />
+</a>
+
               </div>
             </div>
           );
