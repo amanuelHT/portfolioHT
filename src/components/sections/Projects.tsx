@@ -33,16 +33,26 @@ export default function Projects() {
                   {project.description}
                 </p>
 
-                {project.github && (
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="inline-flex items-center gap-2 px-4 py-1.5 border rounded-full text-sm text-gray-800 dark:text-white border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800 transition"
-                  >
-                    <FaCode /> Source Code
-                  </a>
-                )}
+                <div className="flex flex-wrap items-center gap-3 mt-3">
+  <a
+    href={project.github}
+    target="_blank"
+    rel="noreferrer"
+    className="inline-flex items-center gap-2 px-4 py-1.5 border rounded-full text-sm text-gray-800 dark:text-white border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800 transition"
+  >
+    <FaCode /> Source Code
+  </a>
+
+  {project.tech.map((tech, idx) => (
+    <span
+      key={idx}
+      className="bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded-full text-sm font-medium text-gray-800 dark:text-gray-200"
+    >
+      {tech}
+    </span>
+  ))}
+</div>
+
                 
               </div>
                {/* Timeline Logo or Title */}

@@ -21,7 +21,7 @@ export default function Experience() {
               className="relative pl-10 pb-12 transition-all duration-700 ease-out"
             >
               {/* Date */}
-              <div className="absolute -left-[54px] top-0 text-sm bg-gray-20 dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-full px-1 py-0.1 font-semibold shadow-md">
+             <div className="absolute -left-[54px] top-0 text-sm bg-gray-20 dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-full px-1 py-0.1 font-semibold shadow-md">
                 {item.date}
               </div>
 
@@ -39,14 +39,18 @@ export default function Experience() {
       {item.title}
     </h3>
     <p className="text-sm font-medium text-gray-700 dark:text-gray-300">
-      {item.company}
-    </p>
+  {item.company.map((line, i) => (
+    <span key={i}>{line}<br/></span>
+  ))}
+</p>
+
+    
   </div>
 </div>
 
                 {/* Optional Description */}
                 {item.description && (
-                  <p className="text-sm text-gray-600 dark:text-gray-400 mt-1 leading-snug">
+                  <p className="text-gray-700 dark:text-gray-300 mb-4 text-sm leading-relaxed">
                     {item.description}
                   </p>
                 )}

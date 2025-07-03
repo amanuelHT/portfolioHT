@@ -2,22 +2,26 @@ export const projectsData = [
   {
     title: ' ReportGenerator-DesktopApp',
     description:
-      'a desktop application for generating, storing, and managing customer service reports using RDLC reporting. Built using WPF (.NET), SQLite, and integrates with Firebase for authentication and cloud storage.',
-    github: 'https://github.com/amanuelHT/ReportGenerator-DesktopApp', // Replace with actual link
+      'A desktop application for generating, storing, and managing customer service reports using RDLC reporting. Built using WPF (.NET), SQLite, and integrates with Firebase for authentication and cloud storage.',
+    github: 'https://github.com/amanuelHT/ReportGenerator-DesktopApp', 
     logo: '/assets/home.png', // Place this image inside public/logos/
+    tech: [ ".NET 8.0", "WPF", "Firebase", "Bold Reports"],
   },
   {
     title: 'MindJournal-AI',
     description:
-      'Developed a movie review and rating platform for Internettjenester course at University of Agder.',
-    github: 'https://github.com/amanuelHT/MindJournal-AI', // Replace with actual link
+      'AI Powered Diary is a smart mobile diary app that helps you document daily life, then uses AI to turn memories into meaningful weekly and yearly stories for Applicasjonutvikling   course at University of Agder.',
+    github: 'https://github.com/amanuelHT/MindJournal-AI', 
     logo: '/assets/home..png',
+    tech: ["React Native", "OpenAI API", "Fire stroge...",  ],
   },
   {
-    title: 'Game of Life',
-    description:
-      'Recreated Conway’s Game of Life using SFML and modern C++ standards. Includes reproduction, overpopulation, underpopulation logic.',
-    github: 'https://github.com/yourusername/game-of-life', // Replace with actual link
-    logo: '/assets/image.png',
-  },
+  title: 'DevOps Consulting',
+    description: ' Set up GitLab CI/CD, Kubernetes GitOps, and Grafana for Auby & Brinch  in the DevOps course at University of Agder, to enable team growth and modern DevOps practices',
+  github: 'https://github.com/amanuelHT/DevOps',
+  logo: '/assets/image.png',
+  tech: [
+    'GitLab', 'Docker', 'ArgoCD',  'PostgreSQL',,
+  ],
+},
 ];
