@@ -2,7 +2,7 @@
 
 import SectionWrapper from '../common/SectionWrapper';
 import Image from 'next/image';
-import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import useScrollFadeIn from '@/hooks/useScrollFadeIn';
 
 export default function About() {
