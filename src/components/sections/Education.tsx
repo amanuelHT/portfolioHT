@@ -40,7 +40,7 @@ function EducationItem({ item, delay }: EducationItemProps) {
       className="relative pl-10 pb-12 transition-all duration-700 ease-out"
     >
       {/* Date Badge */}
-      <div className="absolute -left-[54px] top-0 text-sm bg-gray-20 dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-full px-1 py-0.1 font-semibold shadow-md">
+      <div className="absolute -left-[64px] top-0 text-sm bg-gray-20 dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-full px-1 py-0.1 font-semibold shadow-md">
         {item.date}
       </div>
 

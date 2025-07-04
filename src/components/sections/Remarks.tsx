@@ -9,7 +9,7 @@ export default function Remarks() {
 
     {/* Remark text */}
     <p className="ml-4 text-sm text-gray-700 dark:text-gray-300">
-      This portfolio is a living document — constantly evolving as I grow as a developer.
+      This portfolio is a work in progress.
     </p>
 
     <p className="ml-4 text-sm italic text-gray-500 mt-2">
