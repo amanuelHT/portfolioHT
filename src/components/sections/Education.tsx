@@ -51,7 +51,7 @@ function EducationItem({ item, delay }: EducationItemProps) {
             <Image
               src={item.logo}
               alt={`${item.institution} logo`}
-              width={150}
+              width={50}
               height={50}
               className="rounded-md"
             />
