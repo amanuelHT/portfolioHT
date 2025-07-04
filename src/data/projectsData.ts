@@ -21,7 +21,7 @@ export const projectsData = [
   github: 'https://github.com/amanuelHT/DevOps',
   logo: '/assets/image.png',
   tech: [
-    'GitLab', 'Docker', 'ArgoCD',  'PostgreSQL',,
+    'GitLab', 'Docker', 'ArgoCD',  'PostgreSQL',
   ],
 },
 ];

@@ -37,7 +37,7 @@ Creative <span className="mx-1">|</span>  Developer
           </div>
 
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-            Hello! I'm Amanuel, and I enjoy solving real-world problems with code.
+            Hello! I&apos;m Amanuel, and I enjoy solving real-world problems with code.
             My passion for software engineering
           </p>
 
