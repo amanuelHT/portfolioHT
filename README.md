@@ -25,24 +25,24 @@
     npm run dev
     ```
 
-    Then open [http://localhost:3000](http://localhost:3000) in your browser.
+    Then open http://localhost:3000 in your browser.
 
 ---
 
 ## Build for Production
 
-To generate an optimized production build, run:
-
-```bash
-npm run build
-
-  
-To preview the production build locally, use:
-
-npm run start
+    To generate an optimized production build, run:
+    
+    ```bash
+    npm run build
+    
+      
+    To preview the production build locally.
+    
+    npm run start
 
 ---
 
 ## Deployment
 
-This portfolio is deployed on Vercel.
+   This portfolio is deployed on Vercel.
