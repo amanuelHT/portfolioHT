@@ -29,7 +29,7 @@
 
 ---
 
-## 🛠 Build for Production
+## Build for Production
 
 To generate an optimized production build, run:
 
