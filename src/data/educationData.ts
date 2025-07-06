@@ -16,7 +16,7 @@
   institution: "University of Agder (UiA)",
   title: "Forkurs ",
   description:
-    "Preparatory course for engineering studies with a foundation in mathematics, physics, and technology.",
+    "Preparatory course for engineering studies.",
   link: "https://www.uia.no/studier/program/forkurs-ingenior/studieplaner/2020h.html"
 },
 ];
