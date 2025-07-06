@@ -26,6 +26,16 @@ export default function Projects() {
         {projectsData.map((project, idx) => (
           <ProjectItem key={idx} project={project} delay={idx * 0.2} />
         ))}
+         {/*  GitHub link */}
+        <div className="mt-6 text-sm text-blue-600 underline underline-offset-2 pl-3 border-l-2 border-dashed border-gray-50">
+          <a
+            href="https://github.com/amanuelHT"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            More on GitHub ↗
+          </a>
+        </div>
       </div>
     </SectionWrapper>
   );

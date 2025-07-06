@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import useScrollFadeIn from '@/hooks/useScrollFadeIn';
 
+
 export default function About() {
   const fadeIn = useScrollFadeIn();
 
@@ -37,8 +38,7 @@ export default function About() {
           </div>
 
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-  Hey there! I&apos;m Amanuel, a curious tech enthusiast who loves solving problems.<br />
-  It all started in 2012 at my uncle&apos;s internet café, where I got hooked on the “magic” behind the computers.<br />
+  Hey there! I&apos;m Amanuel,  a curious tech enthusiast  who loves solving problems. It all started in 2012 at my uncle&apos;s internet café, where I got hooked on the “magic” behind the computers.<br />
   Today, I&apos;ve earned a degree in Computer Engineering, building helpful apps, and keep exploring new ways to use technology.
 </p>
 
