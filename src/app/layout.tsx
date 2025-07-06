@@ -21,7 +21,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "amanuelHT",
   description: "Portfolio.",
-   icons: { icon: "/A-logo.png" },  
+  icons: [
+    { rel: "icon", url: "/logos/A.png", sizes: "612x612" },
+  ],
 };
 
 export default function RootLayout({
