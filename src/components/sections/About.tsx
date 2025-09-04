@@ -38,7 +38,7 @@ export default function About() {
           </div>
 
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-  Hey there! I&apos;m Amanuel,  a curious tech enthusiast  who loves solving problems. It all started in 2012 at my uncle&apos;s internet café, where I got hooked on the “magic” behind the computers.<br />
+  Hey there! I&apos;m Amanuel,  a curious tech enthusiast  who loves solving problems. It all started in 2012 at my uncle&apos;s internet cafe in Asmera, where I got hooked on the “magic” behind the computers.<br />
   Today, I&apos;ve earned a degree in Computer Engineering, building helpful apps, and keep exploring new ways to use technology.
 </p>
 
@@ -56,7 +56,7 @@ export default function About() {
               <FaGithub />
             </a>
              <a
-              href="https://linkedin.com/in/amanuel-hayele-19b6882a1"
+              href="www.linkedin.com/in/amanueltsegay"
               target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn"
