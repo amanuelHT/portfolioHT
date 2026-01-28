@@ -56,7 +56,7 @@ export default function About() {
               <FaGithub />
             </a>
              <a
-              href="https://www.linkedin.com/in/amanuelHT"
+              href="https://www.linkedin.com/in/amanuelht"
               target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn"
