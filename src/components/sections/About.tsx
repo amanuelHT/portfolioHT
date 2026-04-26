@@ -1,7 +1,7 @@
 'use client';
 
 import SectionWrapper from '../common/SectionWrapper';
-import Image from 'next/image';
+// import Image from 'next/image';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import useScrollFadeIn from '@/hooks/useScrollFadeIn';
 
