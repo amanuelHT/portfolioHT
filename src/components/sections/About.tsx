@@ -17,13 +17,13 @@ export default function About() {
       >
         {/* Profile Image */}
         <div className="w-30 h-50 relative rounded-xl overflow-hidden  ">
-          <Image
+          {/* <Image
             src="/assets/am1.png"
             alt="Amanuel HT"
             fill
             className="object-cover"
             priority
-          />
+          />  */}
         </div>
 
         {/* Text Content */}
