@@ -1,7 +1,7 @@
 import About from "@/components/sections/About";
 import Education from "@/components/sections/Education";
 import Projects from "@/components/sections/Projects";
-import Experience from "@/components/sections/Experience";
+//import Experience from "@/components/sections/Experience";
 import Remarks from "@/components/sections/Remarks";
 //import ExtraProjects from "@/components/sections/ExtraProjects";
 
