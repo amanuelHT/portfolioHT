@@ -18,7 +18,7 @@ export default function About() {
         {/* Profile Image */}
         <div className="w-30 h-50 relative rounded-xl overflow-hidden  ">
           <Image
-            src="/logos/A-logo.png"
+            src="/logos/A.png"
             alt="Amanuel HT"
             fill
             className="object-cover"
