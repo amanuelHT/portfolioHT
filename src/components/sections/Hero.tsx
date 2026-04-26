@@ -3,7 +3,7 @@ export default function Hero() {
   return (
     <section className="min-h-screen flex flex-col justify-center items-center text-center px-4">
       <h1 className="text-5xl md:text-6xl font-bold mb-4 text-gray-800">
-        Amanuel Tekleab
+        Amanuel
       </h1>
       <h2 className="text-xl md:text-2xl font-medium text-gray-600 mb-6">
         Software Developer | DevOps Enthusiast
