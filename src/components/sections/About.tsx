@@ -16,7 +16,7 @@ export default function About() {
         className="flex flex-col md:flex-row items-center gap-8 p-6 md:p-10 rounded-2xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-zinc-900 shadow-md"
       >
         {/* Profile Image */}
-        <div className="w-30 h-40 relative rounded-xl overflow-hidden  ">
+        <div className="w-40 h-35 relative rounded-xl overflow-hidden  ">
           <Image
             src="/logos/A.png"
             alt="Amanuel HT"
