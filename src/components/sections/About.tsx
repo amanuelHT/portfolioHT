@@ -37,7 +37,6 @@ export default function About() {
 </p>
           </div>
 <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-  Hi there!<br />
   My interest in technology started when I worked at an internet café, where I became curious about how computers work. Since then, I’ve developed that curiosity into practical experience in software development and application operations.<br />
   I have experience working on projects using React Native, .NET, Firebase, and DevOps tools like Docker, Kubernetes, and CI/CD pipelines.
 </p>
