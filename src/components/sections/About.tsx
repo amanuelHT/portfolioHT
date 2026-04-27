@@ -30,7 +30,7 @@ export default function About() {
         <div className="flex-1 text-center md:text-left space-y-4 max-w-2xl">
           <div>
             <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
-              Amanuel Tsegay
+              Amanuel Hayele
             </h1>
            <p className="text-sm text-gray-500 dark:text-gray-400 tracking-tight">
   Software Developer <span className="mx-1">|</span> DevOps <span className="mx-1">|</span> Application Operations
