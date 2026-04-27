@@ -38,9 +38,8 @@ export default function About() {
           </div>
 <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
   Hi there!<br />
-  My interest in technology started when I worked at an internet café in Asmara, where I first became curious about how computers work. Since then, I’ve developed that curiosity into practical experience in software development and application operations.<br /><br />
-  Today, I hold a Bachelor’s degree in Computer Engineering from the University of Agder in Norway. I have experience building applications using technologies like React Native, .NET, and Firebase, and I’ve also worked with DevOps tools such as Docker, Kubernetes, and CI/CD pipelines.<br /><br />
-  I’m particularly interested in system reliability, application operations, and working with systems in real-world production environments.
+  My interest in technology started when I worked at an internet café, where I became curious about how computers work. Since then, I’ve developed that curiosity into practical experience in software development and application operations.<br /><br />
+  I have experience working on projects using React Native, .NET, Firebase, and DevOps tools like Docker, Kubernetes, and CI/CD pipelines.
 </p>
 
 
